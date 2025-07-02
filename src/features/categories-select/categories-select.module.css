@@ -1,0 +1,24 @@
+.category {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4px;
+  border-radius: 8px;
+  border: 2px solid #e0e0e0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+
+  &:hover {
+    background-color: #eff6ff;
+    border-color: #1d4ed8;
+  }
+}
+
+.active {
+  border-color: #1d4ed8;
+  background-color: #eff6ff;
+}
